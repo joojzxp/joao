@@ -1,5 +1,6 @@
-function consoleNaTela(name){
-    alert(name)
+function consoleNaTela(){
+    int = Math.floor(Math.random()*100)
+    alert(`seu numero aleatório é : ${int}`)
 }
 
-consoleNaTela("joao fodelão")
+consoleNaTela()
